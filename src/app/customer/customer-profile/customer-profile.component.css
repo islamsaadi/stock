@@ -1,0 +1,10 @@
+#profile{
+    color: #FEFFFF;
+}
+#profile .glyphicon-euro{
+    color: green;
+}
+
+#profile .terminateReqButn{
+    margin-top: 20px;
+}

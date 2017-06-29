@@ -1,0 +1,12 @@
+.media-body{
+    color: #FFF
+}
+
+.logout{
+    color: #FF4852 !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+.glyphicon-user{
+    color: #FFF !important;
+}

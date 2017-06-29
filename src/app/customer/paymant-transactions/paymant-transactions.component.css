@@ -1,0 +1,12 @@
+#paymanetTransactions{
+    color:#FEFFFF !important;
+}
+#paymanetTransactions .table tr:hover{
+    color: #000;
+}
+#paymanetTransactions .table #headTR:hover, #paymanetTransactions .table thead:hover,  #paymanetTransactions .table th:hover{
+    color: #FFF;
+}
+#paymanetTransactions .glyphicon-repeat{
+    color: #000;
+}

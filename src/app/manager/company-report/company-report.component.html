@@ -1,0 +1,38 @@
+<app-manager-nav></app-manager-nav>
+
+<section id="companyReport">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <button type="button" class="btn btn-info" (click)="onRefresh()"><span class="glyphicon glyphicon-repeat"></span></button>
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr id="headTR">
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Revenue</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let report of reports?.listRevenu">
+                            <td>{{report.id}}</td>
+                            <td>{{report.date | date}}</td>
+                            <td>{{report.revenue}}</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="div-center">
+                  <span class="numOfCustomers"><span class="glyphicon glyphicon-user"></span> Total Customers: {{reports?.numOfCustomer}}</span> 
+                </div>
+                <div class="div-center">
+                  <span class="totalRevenue"><span class="glyphicon glyphicon-euro"></span> Total Revenues: {{reports?.revenuesTotal}} </span> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+#portfolio{
+    color:#FEFFFF !important;
+}
+#portfolio .table tr:hover{
+    color: #000;
+}
+#portfolio .table #headTR:hover, #portfolio .table thead:hover,  #portfolio .table th:hover{
+    color: #FFF;
+}
+#portfolio .glyphicon-repeat{
+    color: #000;
+}

@@ -1,0 +1,31 @@
+<app-customer-nav></app-customer-nav>
+
+<section id="paymanetTransactions">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <button type="button" class="btn btn-info" (click)="onRefresh()"><span class="glyphicon glyphicon-repeat"></span></button>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr id="headTR">
+                            <th>#</th>
+                            <th>Last Four Digits</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let payment of user.paymenttransaction">
+                            <td>{{payment.id}}</td>
+                            <td>{{payment.lastFourCredit}}</td>
+                            <td>{{payment.amount}}</td>
+                            <td>{{payment.date}}</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

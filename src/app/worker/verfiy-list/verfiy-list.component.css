@@ -1,0 +1,15 @@
+#verifyList{
+    color:#FEFFFF !important;
+}
+#verifyList .table tr:hover{
+    color: #000;
+}
+#verifyList .table #headTR:hover, #verifyList .table thead:hover,  #verifyList .table th:hover{
+    color: #FFF;
+}
+#verifyList .glyphicon-repeat{
+    color: #000;
+}
+#verifyList .glyphicon-ok{
+    color: greenyellow;
+}

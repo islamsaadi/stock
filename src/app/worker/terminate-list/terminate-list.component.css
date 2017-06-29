@@ -1,0 +1,16 @@
+#terminateList{
+    color:#FEFFFF !important;
+}
+#terminateList .table tr:hover{
+    color: #000;
+}
+#terminateList .table #headTR:hover, #terminateList .table thead:hover,  
+#terminateList .table th:hover{
+    color: #FFF;
+}
+#terminateList .glyphicon-repeat{
+    color: #000;
+}
+#terminateList .glyphicon-ok{
+    color: greenyellow;
+}

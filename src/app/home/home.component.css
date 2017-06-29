@@ -1,0 +1,25 @@
+header h1{
+    text-align: center;
+        color: #FEFFFF;
+}
+#login{
+    color: #FEFFFF;
+}
+.glyphicon-arrow-up{
+    color: #5cb85c;
+}
+.glyphicon-arrow-down{
+    color: #FF4D46;
+}
+.register-click{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+#myModal{
+    color: #000;
+}
+#myModal .modal-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: cornflowerblue
+}

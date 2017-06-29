@@ -1,0 +1,24 @@
+#companyReport{
+    color:#FEFFFF !important;
+}
+#companyReport .table tr:hover{
+    color: #000;
+}
+#companyReport .table #headTR:hover, #companyReport .table thead:hover,  
+#companyReport .table th:hover{
+    color: #FFF;
+}
+#companyReport .glyphicon-repeat{
+    color: #000;
+}
+#companyReport .glyphicon-ok, .glyphicon-euro{
+    color: greenyellow;
+}
+#companyReport .glyphicon-user{
+    color: cornflowerblue
+}
+.div-center{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}

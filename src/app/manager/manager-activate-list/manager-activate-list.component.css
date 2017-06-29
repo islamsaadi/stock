@@ -1,0 +1,16 @@
+#activateList{
+    color:#FEFFFF !important;
+}
+#activateList .table tr:hover{
+    color: #000;
+}
+#activateList .table #headTR:hover, #activateList .table thead:hover,  
+#activateList .table th:hover{
+    color: #FFF;
+}
+#activateList .glyphicon-repeat{
+    color: #000;
+}
+#activateList .glyphicon-ok{
+    color: greenyellow;
+}

@@ -1,0 +1,13 @@
+#market{
+    color:#FEFFFF;
+}
+#market .table tr:hover{
+    color: #000;
+}
+#market .table #headTR:hover, #market .table thead:hover,  #market .table th:hover{
+    color: #FFF;
+}
+
+#market .glyphicon-repeat{
+    color: #000;
+}

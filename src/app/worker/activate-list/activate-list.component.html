@@ -1,0 +1,38 @@
+<app-worker-nav></app-worker-nav>
+
+<section id="activateList">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <button type="button" class="btn btn-info" (click)="onRefresh()"><span class="glyphicon glyphicon-repeat"></span></button>
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr id="headTR">
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>ID Number</th>
+                            <th>Birth Date</th>
+                            <th>Gender</th>
+                            <th><span class="glyphicon glyphicon-ok"></span></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let account of activatelist">
+                            <td>{{account.id}}</td>
+                            <td>{{account.firstname}}</td>
+                            <td>{{account.lastname}}</td>
+                            <td>{{account.iden}}</td>
+                            <td>{{account.birthday}}</td>
+                            <td>{{account.gender}}</td>
+                            <td><button class="btn btn-primary" type="button" (click)="onActivate(account.id)">Activate</button></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
